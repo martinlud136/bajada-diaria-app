@@ -58,6 +58,7 @@ const convertirAObjeto = (bajada) => {
       if(!buquePatron) return buque
       let copiaBuque = {...buque}
       copiaBuque["Vessel Type"] = buquePatron["Vessel Type"]
+      copiaBuque["Flag"] = buquePatron["Flag"]
   
       return copiaBuque
     })
